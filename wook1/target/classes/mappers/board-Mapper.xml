@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE mapper
+
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+
+
+<mapper namespace="com.spring.mapper.Mapper">
+<select id="listAll" resultType="com.spirng.dto.DTO">
+
+
+select 
+bno,title,content,writer,regdage,viewcnt
+from
+myboard
+
+order by bno desc
+</select>
+
+<select id="login" resultType="com.spring.dto.MemberDAO">
+
+select UserID,UserPW from memberinfo where UserID=#{userid} and
+
+UserPW=#{userpw};
+
+
+
+
+
+</select>
+
+
+
+
+
+</mapper>

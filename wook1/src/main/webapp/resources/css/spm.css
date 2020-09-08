@@ -1,0 +1,109 @@
+
+*{
+
+    margin:0px; padding:0px;
+}
+.wrap{
+
+width:1900px;
+margin: 0 auto;
+
+}
+header{
+
+width:100%;
+background-color: white;
+height:50px;
+text-align: center;
+font-size:30px;
+position: relative;
+left:100px;
+
+}
+aside{
+width:20%;
+background-color:white;
+height:500px;
+float:left;
+}
+section{
+width:80%;
+background-color:   white;
+height:800px;
+float: left;
+
+background-image: url('/resources/img/s.jpg');
+
+background-repeat: no-repeat;
+
+
+
+
+
+}
+.header_menu{
+
+
+
+float: right;
+
+position: relative;
+right:420px;
+}
+.header_menu ul li{ 
+
+display: inline-block;
+
+}
+.header_menu ul li a{
+
+text-decoration: none;
+color :black;
+font-size:13px;
+}
+
+footer{
+width:100%;
+background-color: rgba(255, 255, 255, 0.5);
+
+
+height:100px;
+clear: both;
+text-align: center;
+margin: auto 0;
+
+}
+.aside_menu li {
+list-style-type: none;
+}
+.aside_menu li a {
+text-decoration:none;  COLOR:black;
+}
+.SNOPING{
+HEIGHT:630px;
+line-height: 30px;
+
+
+}
+.SNOPING ul li a{
+
+color :darkgray;
+
+
+}
+.COMMUNITY ul li a{
+
+color :darkgray;
+
+
+}
+
+
+
+
+.COMMUNITY{
+
+line-height: 30px;
+
+
+}
